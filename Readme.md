@@ -30,17 +30,18 @@ The project follows best React Native development practices and uses component-b
 
 ## Prerequisites:
 
-**Shopify Storefront API keys:** You need to provide the Shopify STORE_DOMAIN and ACCESS_TOKEN. Paste these values into the constants.ts file.
+1. **Shopify Storefront API keys:** You need to provide the Shopify STORE_DOMAIN and ACCESS_TOKEN. Paste these values into the constants.ts file.
+2. **React Native environment:** It is necessary to set up React Native development environment. Please refer to the official documentation provided at https://reactnative.dev/docs/environment-setup for detailed instructions.
 
 ## Running the Project:
 
 1.  **Clone the Repository:**
 
-    `git clone https://github.com/<your-github-username>/<your-repository-name>.git`
+    `git clone https://github.com/tsopin/storefront-demo.git`
 
 2.  **Navigate to the project directory:**
 
-    `cd <your-repository-name>`
+    `cd storefront-demo`
 
 3.  **Install the dependencies:**
 
@@ -59,7 +60,5 @@ The project follows best React Native development practices and uses component-b
 ## Testing:
 
 The Jest testing framework is used to test components and business logic. Run the following command to execute the tests:
-
-bashCopy code
 
 `yarn test`

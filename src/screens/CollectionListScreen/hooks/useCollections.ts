@@ -13,8 +13,6 @@ export const useCollections = () => {
     [data],
   );
 
-  console.log('AAAAAAA', error);
-
   return {
     collections,
     loading,
