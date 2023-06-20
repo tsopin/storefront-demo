@@ -47,7 +47,12 @@ The project follows best React Native development practices and uses component-b
 
     `yarn install`
 
-4.  **Run the application:**
+4.  **Install the native iOS dependencies:**
+
+    `cd ios`
+    `pod install`
+
+5.  **Run the application:**
 
     - For iOS:
 
