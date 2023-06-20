@@ -28,6 +28,13 @@ The project follows best React Native development practices and uses component-b
 
 6.  **Jest:** Used for writing tests to ensure code reliability and functionality.
 
+## Demo:
+
+
+
+https://github.com/tsopin/storefront-demo/assets/31713024/ffa50f76-0f8c-4323-b492-d081bceb7407
+
+
 ## Prerequisites:
 
 1. **Shopify Storefront API keys:** You need to provide the Shopify STORE_DOMAIN and ACCESS_TOKEN. Paste these values into the constants.ts file.
