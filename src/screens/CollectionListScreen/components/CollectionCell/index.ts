@@ -1,0 +1,1 @@
+export {CollectionCell} from './CollectionCell';
