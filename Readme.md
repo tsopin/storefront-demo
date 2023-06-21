@@ -1,20 +1,20 @@
-# Project Title: Shopify Storefront Demo React Native App
+# Shopify Storefront Product Browser
 
 ## Overview:
 
-This project is a React Native app using the Shopify Storefront API. It displays collections and products from a Shopify store, providing users with the ability to view product details and add products to a cart. The Cart screen allows users to view their cart, change product quantities, and remove products. An Order Summary section also provides Subtotal, Tax, and Total calculations.
+This project is a React Native app using the Shopify Storefront API. It displays collections and products from a Shopify store, providing users with the ability to view product details and add products to a cart. The cart screen allows users to view their cart, change product quantities, and remove products. An order summary section in the cart provides subtotal, tax, and total amounts.
 
-The project follows best React Native development practices and uses component-based architecture. Most business logic and user interfaces are covered by Jest tests.
+The project follows best React Native development practices and uses component-based architecture. Most business logic and user interfaces are covered with unit tests.
 
 ## Features:
 
-1.  **Tab Bar Navigation:** The app contains a Tab Bar with two tabs - Collections and Cart. It utilizes React Navigation - Stack and Bottom Tabs for navigation between screens.
+1.  **Tab Bar Navigation:** The app contains a tab bar with two tabs - Collections and Cart. It utilizes React Navigation - Stack and Bottom Tabs for navigation between screens.
 
-2.  **Product Browsing:** The Collections tab displays a list of collections from a Shopify store. Tapping on a collection opens a ProductListScreen that displays products in a two-column layout. Selecting a product leads the user to a ProductDetailsScreen where they can see the product title, price, description, and an 'Add to cart' button.
+2.  **Product Browsing:** The Collections tab displays a list of collections from a Shopify store. Tapping on a collection opens a product list screen that displays products in a two-column layout. Selecting a product leads the user to a product details screen where they can see the product title, price, description, and an "Add to cart" button.
 
-3.  **Cart Management:** The Cart tab displays the list of items added to the cart, allowing the user to adjust quantities or remove items from the cart. The Order summary section provides a breakdown of the Subtotal, Tax, and Total. If all items are re,oved from the Cart, an EmptyStatePlaceholder is shown.
+3.  **Cart Management:** The Cart tab displays the list of items added to the cart, allowing the user to adjust quantities or remove items from the cart. The order summary section provides a breakdown of the subtotal, tax, and total. If all items are removed from the Cart - an empty state is shown.
 
-## Tech Stack:
+## Tech stack:
 
 1.  **React Native:** Used for cross-platform mobile app development.
 
@@ -37,12 +37,12 @@ https://github.com/tsopin/storefront-demo/assets/31713024/ffa50f76-0f8c-4323-b49
 
 ## Prerequisites:
 
-1. **Shopify Storefront API keys:** You need to provide the Shopify STORE_DOMAIN and ACCESS_TOKEN. Paste these values into the constants.ts file.
+1. **Shopify Storefront API keys:** You need to provide the Shopify `STORE_DOMAIN` and `ACCESS_TOKEN`. Paste these values into the `constants.ts` file.
 2. **React Native environment:** It is necessary to set up React Native development environment. Please refer to the official documentation provided at https://reactnative.dev/docs/environment-setup for detailed instructions.
 
-## Running the Project:
+## Running the project:
 
-1.  **Clone the Repository:**
+1.  **Clone the repository:**
 
     `git clone https://github.com/tsopin/storefront-demo.git`
 
@@ -57,9 +57,10 @@ https://github.com/tsopin/storefront-demo/assets/31713024/ffa50f76-0f8c-4323-b49
 4.  **Install the native iOS dependencies:**
 
     `cd ios`
+    
     `pod install`
 
-5.  **Run the application:**
+6.  **Run the application:**
 
     - For iOS:
 
